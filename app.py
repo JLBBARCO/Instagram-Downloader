@@ -22,5 +22,9 @@ def download():
     
     return send_file(filepath, as_attachment=True)
 
+@app.errorhandler(405)
+def method_not_allowed(e):
+    return render_template('405.html'), 405
+
 if __name__ == "__main__":
     app.run(debug=True)

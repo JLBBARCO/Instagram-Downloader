@@ -29,6 +29,7 @@ main{
     padding: 50px;
     border-radius: 10px;
     background-color: #fff;
+    box-shadow: 0px 0px 10px;
 }
 
 .instagram-logo{
