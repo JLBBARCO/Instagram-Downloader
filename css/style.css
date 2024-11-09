@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+:root{
+    --color1: #405DE6;
+    --color2: #5851DB;
+    --color3: #833AB4;
+    --color4: #C13584;
+    --color5: #E1306C;
+    --color6: #FD1D1D;
+    --fonte: 'Segoe UI', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--fonte)
+}
+
+body{
+    background: linear-gradient(45deg, var(--color1), var(--color2), var(--color3), var(--color4), var(--color5), var(--color6)) fixed;
+}
+
+main{
+    min-width: 300px;
+    max-width: 800px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.instagram-logo{
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+h1{
+    text-align: center;
+}
+
+section{
+    margin: 10px 30px 30px 30px;
+}
+
+#url{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+button{
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--color3);
+    color: white;
+}
+
+button:hover{
+    background-color: var(--color1);
+}
